@@ -1,0 +1,50 @@
+.newobj {
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 5%;
+  font-weight: 900;
+  width: 300px;
+}
+
+.obj {
+  margin: 2%;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+input {
+  background-color: antiquewhite;
+  width: 200px;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  height: 50px;
+  margin: 2%;
+}
+
+label {
+  font-size: 2rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 80px;
+  cursor: pointer;
+  height: 50px;
+  border: 2px solid grey;
+}
